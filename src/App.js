@@ -12,11 +12,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class="min-h-screen w-full bg-slate-100 flex justify-center items-center">
-        <div class="bg-white flex-1 max-w-md rounded-xl shadow-xl overflow-hidden">
+      <div className="min-h-screen w-full bg-slate-100 flex justify-center items-center">
+        <div className="bg-white flex-1 max-w-md rounded-xl shadow-xl overflow-hidden">
           <input
             type="text"
-            class="bg-slate-600 text-white p-6 w-full outline-none text-3xl"
+            className="bg-slate-600 text-white p-6 w-full outline-none text-3xl"
             placeholder="Type something..."
           />
           <ul>
@@ -24,7 +24,7 @@ class App extends React.Component {
               return (
                 <li
                   key={todo.id}
-                  class={`p-6 text-3xl transition border-b border-slate-100 hover:bg-blue-500 hover:text-white cursor-pointer bg-slate-200 text-slate-600 ${
+                  className={`p-6 text-3xl transition border-b border-slate-100 hover:bg-blue-500 hover:text-white cursor-pointer bg-slate-200 text-slate-600 ${
                     todo.done ? "line-through" : ""
                   }`}
                 >
