@@ -5,6 +5,7 @@ class App extends React.Component {
     todose: [
       { id: 1, title: "item 1", done: false },
       { id: 2, title: "item 2", done: true },
+      { id: 1, title: "item 3", done: false },
     ],
   };
 
